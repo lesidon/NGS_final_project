@@ -1,0 +1,2 @@
+file             format  type  num_seqs    sum_len  min_len  avg_qlen  max_len   Q1   Q2   Q3  sum_gap  N50  Q20(%)  Q30(%)  GC(%)
+scaffolds.fasta  FASTA   DNA     16,380  5,833,439       56    356.1   12,038  220  253  359        0  356       0       0  31.58
