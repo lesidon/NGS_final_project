@@ -1,0 +1,62 @@
+BLASTN 2.13.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: scaffolds.fasta
+           16,380 sequences; 5,833,439 total letters
+
+
+
+Query= 
+Length=620
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NODE_3_length_10278_cov_8.307933                                      220     1e-57
+
+
+>NODE_3_length_10278_cov_8.307933 
+Length=10278
+
+ Score = 220 bits (119),  Expect = 1e-57
+ Identities = 155/172 (90%), Gaps = 3/172 (2%)
+ Strand=Plus/Minus
+
+Query  260   CTG-AAGTCTAAA-ACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAAC  317
+             ||| ||| ||||| | |||||||||||| |||||||||||||| ||||||||||||||||
+Sbjct  5292  CTGTAAG-CTAAACATGACTCTCGGCAATGGATATCTCGGCTCCCGCATCGATGAAGAAC  5234
+
+Query  318   GTAGCGAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAA  377
+             | ||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  5233  GCAGCGAAATGCGATACGTGGTGCGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAA  5174
+
+Query  378   CGCAAGTTGCGCCCCAAGCCTTCTGGCCGAGGGCACGTCTGCCTGGGTGTCA  429
+             |||||||||||||| | ||| |  |||| |||||||| ||||||||| ||||
+Sbjct  5173  CGCAAGTTGCGCCCAAGGCCCTTAGGCCAAGGGCACGCCTGCCTGGGCGTCA  5122
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3272901242
+
+
+  Database: scaffolds.fasta
+    Posted date:  Mar 15, 2023  7:23 PM
+  Number of letters in database: 5,833,439
+  Number of sequences in database:  16,380
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
