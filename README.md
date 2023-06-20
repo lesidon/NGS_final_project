@@ -11,3 +11,8 @@ Some researches sequenced a genome of a plant specie which they were not able to
 The amount of data was not sufficient for the assembly of the complete nuclear genome but it was enough for high-copy genomic segments (plastid genomes, ribosomal RNA genes, mobile elements). These were used for the DNA-based identification.
 
 <a href='https://github.com/lesidon/NGS_final_project/blob/main/NGS%20final%20project%20(2).pdf'>The final presentation</a> with the results of the analysis. We have successfully accomplished our goal: the unknown plant was <i>Epipogium aphyllum</i>, also known as Ghost orchid.
+
+## Tools 
+- Quality control: FastQC v. 0.11.9
+- De Novo genome assembly: SPAdes genome assembler v3.15.5
+- Homology search: makeblastdb v. 2.13.0+, blastn v. 2.13.0+
